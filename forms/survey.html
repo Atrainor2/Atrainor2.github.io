@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>(Page Title Goes Here)</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="">
+<style>
+  body {
+  font-size: 1.3em;
+  background-color: beige;
+
+  }
+  content{
+  width:90%;
+  margin:auto;
+  }
+
+  h1 {
+  text-align:center;
+  }
+
+  form {
+  margin-left:5%;
+  }
+  input{
+  margin-bottom:2%;
+  }
+  input#submit {
+  display:block;
+  background-color:#33ff99;
+  font-weight:bold;
+  padding: 20px;
+  font-size: 1.5em;
+  }
+
+  select option {
+  font-size: 1.75em;
+  width: 150px;
+  }
+  </style>
+</head>
+
+<body>
+  <h1> Music Survey
+  </h1>
+  <form>
+  <form action="https://idesstage2.bc.edu/class/results.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+Email Adress: <input type="email" name="email"><br>
+
+<textarea rows="3" cols="60"> </textarea><br>
+<fieldset>
+  <legend>
+    Select Your Favorite Type of Music
+
+</legend>
+<input type="checkbox" name="gender" value="Weekly" >Pop<br>
+<input type="checkbox" name="gender" value="Monthly"> Classical<br>
+<input type="checkbox" name="gender" value="A few Per Year">Rock<br>
+  <input type="checkbox" name="gender" value="Never"> Folk<br>
+    <input type="checkbox" name="gender" value="Never"> Rap<br>
+    <input type="checkbox" name="gender" value="Never"> Other<br>
+
+
+</fieldset>
+
+<fieldset>
+  <legend>
+  How Often Do you Purchase Music?
+
+</legend>
+
+  <input type="radio" name="gender" value="Weekly" >Weekly<br>
+  <input type="radio" name="gender" value="Monthly"> Monthly<br>
+  <input type="radio" name="gender" value="A few Per Year"> A few Per Year<br>
+    <input type="radio" name="gender" value="Never"> Never<br>
+
+</fieldset>
+
+  <span class="checkmark"></span>
+</label>
+<select>
+  <option value="at home">At Home</option>
+  <option value="in the car">In the Car</option>
+  <option value="in the shower">In the Shower</option>
+  <option value="while cooking">While Cooking</option>
+</select>
+
+  <input type="submit" value="Submit">
+
+</form>
+
+
+
+</body>
+</html>
