@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <title>"In Class Forms"</title>
+     <link rel="stylesheet" href="">
+    <meta name="description" content="your description">
+     <meta name="keyword" content="your keywords, more key words">
+    <meta name="author" content="(your name)">
+ </head>
+
+ <body>
+   <form action="/action_page.php">
+    <label for="name"> Name </label> <br>
+     <input type="text" name="name" required>
+     <br>
+  <label for="email"> Email </label> <br>
+     <input type="text" name="email" required>
+     <br><br>
+     <div class="slidecontainer">
+       <label for="range"> Range </label> <br>
+     <input type="range" name="range" min="1" max="100" onchange="showValue(this.value)">
+     <span id="range" > 0 </span>
+<br>
+<input list = "browsers"name = "browsers">
+<datalist id="browsers"
+<option value = "Safari"
+<option value = "Opera"
+<option value = "Firefox"
+<option value = "Internet Explorer"
+<option value = "Chrome"
+</datalist>
+     <br> <br>
+</div>
+
+     <input type="image" src = "submit.jpg" alt="Submit">
+   </form>
+
+   <script type="text/javascript">
+   function showValue(newValue)
+   {
+   document.getElementById("range").innerHTML=newValue;
+   }
+   </script>
+
+ </body>
+</html>
