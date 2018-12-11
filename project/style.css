@@ -1,0 +1,45 @@
+body{
+  color:navy;
+  background-color:LightBlue;
+  height:100%;
+  width: 100%;
+
+}
+header{
+text-align:center;
+}
+nav a{
+padding-left:10%;
+padding-right:10%;
+display:inline;
+font-size:1.5em;
+background-color:LightBlue;
+color:HotPink;
+}
+nav a:hover
+{
+background-color:HotPink;
+color:LightBlue;
+}
+nav{
+  padding-bottom:3%;
+
+}
+header{
+width:100%;
+}
+.push{height:50;
+}
+footer{
+  position:relative;
+  bottom:0;
+text-align:center;
+width:100%;
+background-color:HotPink;
+}
+content{
+  margin-left:2%;
+  margin-right:2%;
+  width:80%;
+
+}

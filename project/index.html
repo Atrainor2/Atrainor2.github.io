@@ -3,40 +3,56 @@
   <head>
      <meta charset="utf-8">
     <title>"My Influencers"</title>
-     <link rel="stylesheet" href="">
+     <link rel="stylesheet" href="style.css">
     <meta name="description" content="your description">
      <meta name="keyword" content="your keywords, more key words">
     <meta name="author" content="(your name)">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body{
-    color:black;
+  form{
+    display:block;
+    margin-left:2%;
+    margin-bottom:5%;
+    border:2px solid darkblue;
+    width:30%;
+    padding:3%;
+    background-color: pink;
 
   }
-header{
+  h2{
+    margin-left:12%;
+  }
+  footer{
   text-align:center;
-}
-nav a{
-  padding-left:10%;
-  padding-right:10%;
-  display:inline;
+  width:100%;
+  background-color:HotPink;
+clear:both;
+
+  }
+content{
   font-size:1.5em;
-  background-color:LightBlue;
-  color:HotPink;
 }
-nav a:hover
-{
-  background-color:HotPink;
-  color:LightBlue;
-}
-header{
-  width:100%;
-}
-footer{
-  text-align:center;
-  width:100%;
-  background-color:HotPink;
-}
+  #blurb{
+    margin-left:5%;
+    width:46%;
+    float:left;
+    min-height:100%;
+    margin-bottom:-60;
+
+
+  }
+  #content{
+    margin-right:3%;
+    width:46%;
+    float:right;
+    text-align:right;
+    min-height:100%;
+    margin-bottom:-60;
+
+  }
+  #form{
+    clear:both;
+  }
 
 </style>
  </head>
@@ -50,11 +66,46 @@ footer{
 <a href = "scarlettlewis.html"> Scarlett Lewis </a>
     </nav>
   </header>
-  <div id="blurb"> hi, im anne. </div>
-  <video width="320" height="240" controls>
-    <source src="anne.mp4" type="video/mp4">
+<content>
+  <div id="blurb">
+     My name is Anne Trainor and I have included here a
+    few of my Influencers that I hope you will enjoy learning more about.
 
-  </video>
+  </div>
+  <div id="content">
+  <iframe width="500" height="255" src="https://www.youtube.com/embed/ipR0kWt1Fkc"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+  gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class=push>
+  </div>
+  </div>
+<div id="form">
+  <h2>
+    Subscribe Here
+    </h2>
+  <form action="https://idesstage2.bc.edu/class/results.php" method = "post">
+   <label for="name"> Name </label> <br>
+    <input type="text" name="name" required>
+    <br>
+ <label for="email"> Email </label> <br>
+    <input type="text" name="email" required>
+    <br><br>
+<br>
+<label for="favorites">
+  Select Your Favorite Influencer
+  </label>
+<select name="favorites">
+  <option value="Gabby Bernstein">Gabby Bernstein</option>
+  <option value="gregory boyle">Gregory Boyle</option>
+  <option value="scarlett">Scarlett Lewis</option>
+
+</select>
+    <br> <br>
+
+    <input type="submit" value="Subscribe" >
+  </form>
+  </div>
+</content>
   <footer>
 Anne Trainor 2018
     </footer>

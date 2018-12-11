@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <title>"My Influencers"</title>
+     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="your description">
+     <meta name="keyword" content="your keywords, more key words">
+    <meta name="author" content="(your name)">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#show{
+  display:none;
+}
+  #blurb{
+    margin-left:5%;
+    width:46%;
+    float:left;
+    min-height:100%;
+    margin-bottom:-60;
+
+  }
+  #content{
+    margin-right:3%;
+    width:46%;
+    float:right;
+    text-align:right;
+    min-height:100%;
+    padding-bottom:40%;
+
+  }
+  body{
+    text-align: left;
+  }
+  footer{
+  text-align:center;
+  width:100%;
+  background-color:HotPink;
+clear:both;
+
+  }
+
+</style>
+<script>
+
+function show() {
+  var x = document.getElementById("show");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+ </head>
+
+ <body>
+<header>
+  <img src="titlebanner.png" alt = "site title" width="100%" >
+  <nav>
+<a href = "index.html"> Back to HomePage </a>
+<a href = "gabbybernstein.html"> Gabby Bernstein </a>
+<a href = "scarlettlewis.html"> Scarlett Lewis </a>
+    </nav>
+  </header>
+<content>
+  <div id="blurb"><p>The Rev. Gregory J. Boyle, S.J., is the founder of Homeboy Industries in Los Angeles, the largest gang intervention,
+    rehabilitation and re-entry program in the world.
+A native Angeleno, Father Boyle entered the Society of Jesus (the Jesuits)
+ in 1972 and was ordained a Catholic priest in 1984.  He holds a bachelor’s degree in
+ philosophy and English from Gonzaga University, a master’s degree in English from
+ Loyola Marymount University, a Master of Divinity degree from the Weston School of
+ Theology, and a Master of Sacred Theology degree from the Jesuit School of Theology
+ at Berkeley...<a href=# onClick="show()"> Show More</a> </p>
+
+
+<p id="show">After ordination, Father Boyle spent a year living and working with Christian base
+communities in Cochabamba, Bolivia.  In 1986, he was appointed pastor of Dolores Mission
+ Church in the Boyle Heights neighborhood of East LA.  At the time, Dolores Mission was
+ the poorest Catholic parish in the city, located between two large public housing projects
+ with the highest concentration of gang activity in Los Angeles. He witnessed the devastating
+  impact of gang violence on his community during what he has called "the decade of death" that began
+   in the late 1980's. In the face of law enforcement and criminal justice tactics and policies of suppression
+   and mass incarceration as the means to end gang violence, Father Boyle and parish and community members adopted
+   what was a radical approach at the time: treating gang members as human beings.<br> <br>
+
+By 1988, having buried an ever growing number of young people killed in gang violence,
+ Father Boyle and parish and community members sought to address the escalating problems
+  and unmet needs of gang-involved youth by developing positive opportunities for them,
+   including establishing an alternative school and day care program, and seeking out
+   legitimate employment.  They called this initial effort Jobs for a Future.
+   “Gang violence is about a lethal absence of hope,” Father Boyle has said.
+   “Nobody has ever met a hopeful kid who joined a gang.”</p>
+</div>
+
+  <div id="content">
+  <iframe width="500" height="255" src="https://www.youtube.com/embed/8eQsHEjfRrY"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture" allowfullscreen></iframe>
+  </div>
+</content>
+  <footer>
+    Anne Trainor 2018
+  </footer>
+</body>
+</html>
